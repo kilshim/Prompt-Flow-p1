@@ -1,0 +1,8 @@
+{
+  "name": "Prompt Flow-p1",
+  "description": "An interactive web tool designed for marketers and small business owners to build high-quality AI prompts using 6 proven engineering techniques through a simple 'fill-in-the-blanks' interface.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

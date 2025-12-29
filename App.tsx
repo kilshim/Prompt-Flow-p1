@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useCallback } from 'react';
 import { 
   Clipboard, 
@@ -662,6 +663,19 @@ const App: React.FC = () => {
           </div>
         </div>
       </main>
+
+      <footer className="py-8 border-t border-slate-200 mt-auto bg-white">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <a 
+            href="https://xn--design-hl6wo12cquiba7767a.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-slate-400 hover:text-indigo-600 transition-colors text-sm font-medium"
+          >
+            떨림과울림Design.com
+          </a>
+        </div>
+      </footer>
 
       {/* 결과 오버레이 모달 */}
       {apiResult && (

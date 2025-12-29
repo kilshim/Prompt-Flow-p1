@@ -346,7 +346,7 @@ const App: React.FC = () => {
               <h1 className="text-xl font-black text-slate-900 leading-none mb-1 uppercase tracking-tighter">Prompt Flow</h1>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Powered by Gemini 3</p>
+                <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">AI Prompt Builder</p>
               </div>
             </div>
           </div>
@@ -688,7 +688,6 @@ const App: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-black text-slate-900">분석 결과물</h3>
-                  <p className="text-xs text-slate-400 font-bold uppercase tracking-widest">Google Gemini 3 Flash</p>
                 </div>
               </div>
               <button onClick={() => setApiResult(null)} className="p-3 hover:bg-slate-200 rounded-full transition-colors text-slate-400">
